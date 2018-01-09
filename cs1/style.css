@@ -1,0 +1,91 @@
+/*@import url(//fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,700,300italic,400italic,600italic);
+@import url(//fonts.googleapis.com/css?family=Kaushan+Script);*/
+/*!
+ *   Director free version
+ *   Author: web-apps.ninja
+ *   License: Open source - MIT
+ *   Please visit http://opensource.org/licenses/MIT for more information
+!*/
+/*
+    Core: General style
+----------------------------
+*/
+html,
+
+}
+@media screen and (min-width: 992px) {
+  .left-side {
+    top: 50px;
+  }
+  /*Right side strech mode*/
+  .right-side.strech {
+    margin-left: 0;
+  }
+  .right-side.strech > .content-header {
+    margin-top: 0px;
+  }
+  /* Left side collapse */
+  .left-side.collapse-left {
+    left: -220px;
+  }
+}
+/*Give content full width on xs screens*/
+@media screen and (max-width: 992px) {
+  .right-side {
+    margin-left: 0;
+  }
+}
+/*
+    By default the layout is not fixed but if you add the class .fixed to the body element
+    the sidebar and the navbar will automatically become poisitioned fixed
+*/
+
+
+.sm-st {
+  background:#fff;
+  padding:20px;
+  -webkit-border-radius:3px;
+  -moz-border-radius:3px;
+  border-radius:3px;
+  margin-bottom:20px;
+  -webkit-box-shadow: 0 1px 0px rgba(0,0,0,0.05);
+  box-shadow: 0 1px 0px rgba(0,0,0,0.05);
+}
+.sm-st-icon {
+  width:60px;
+  height:60px;
+  display:inline-block;
+  line-height:60px;
+  text-align:center;
+  font-size:30px;
+  background:#eee;
+  -webkit-border-radius:5px;
+  -moz-border-radius:5px;
+  border-radius:5px;
+  float:left;
+  margin-right:10px;
+  color:#fff;
+}
+.sm-st-info {
+  font-size:12px;
+  padding-top:0px;
+}
+.sm-st-info span {
+  display:block;
+  font-size:24px;
+  font-weight:500;
+}
+
+
+.st-red {
+  background-color: #F05050;
+}
+.st-green {
+  background-color: #27C24C;
+}
+.st-violet {
+  background-color: #7266ba;
+}
+.st-blue {
+  background-color: #23b7e5;
+}
