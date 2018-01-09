@@ -5,7 +5,7 @@ class tes extends PHPUnit_Framework_TestCase
         function testFile()
         {
                 include("config/koneksi.php");
-                $query=mysql_query("SELECT * FROM u ser_man ");
+                $query=mysql_query("SELECT * FROM user_man ");
                 $user = mysql_num_rows($query);
                 $content1 = $user;
             
@@ -41,7 +41,6 @@ class tes extends PHPUnit_Framework_TestCase
             
                 $this->assertEquals('non-member', $content4);
         }
-
 
 }
 ?>
